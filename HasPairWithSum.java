@@ -17,6 +17,7 @@ public class HasPairWithSum {
         return false;
     }
 
+    // two pointer approach
     public static boolean hasPairwithSumTwoPointerApproach(int arr[], int target) {
         Arrays.sort(arr);
         int left = 0;
